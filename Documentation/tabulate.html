@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabulate module &#8212; Info Retrieval - Plagiarism Checker 1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-tabulate">
+<span id="tabulate-module"></span><h1>tabulate module<a class="headerlink" href="#module-tabulate" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="tabulate.print_header">
+<code class="sig-prename descclassname">tabulate.</code><code class="sig-name descname">print_header</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tabulate.print_header" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print the table header</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="tabulate.print_row">
+<code class="sig-prename descclassname">tabulate.</code><code class="sig-name descname">print_row</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">doc</span><span class="p">:</span> <span class="n">pathlib.Path</span></em>, <em class="sig-param"><span class="n">originals</span><span class="p">:</span> <span class="n">List<span class="p">[</span>Tuple<span class="p">[</span>pathlib.Path<span class="p">, </span>float<span class="p">]</span><span class="p">]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tabulate.print_row" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print a single row of the table
+:param doc: Name of document that was queried
+:param originals: List of original documents and their plagiarism scores
+:return: None</p>
+</dd></dl>
+
+<dl class="py function">
+<dt id="tabulate.tabulate">
+<code class="sig-prename descclassname">tabulate.</code><code class="sig-name descname">tabulate</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span>pathlib.Path<span class="p">, </span>List<span class="p">[</span>Tuple<span class="p">[</span>pathlib.Path<span class="p">, </span>float<span class="p">]</span><span class="p">]</span><span class="p">]</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tabulate.tabulate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Call print_header() and print_row() in order
+:param data: Dictionary of query documents and its scores
+:return: None</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Info Retrieval - Plagiarism Checker</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Kushagra Gupta, Parveen Jakhar, S. Sai Naga Shashank.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/tabulate.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
